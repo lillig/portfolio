@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+}
+
+header {
+  text-align: center;
+}
+
+.headerImageContainer {
+  position: relative;
+}
+
+.headerText {
+  background: #f7f75f;
+  -webkit-box-shadow: 0px 0px 20px 25px #f7f75f;
+  -moz-box-shadow: 0px 0px 20px 25px #f7f75f;
+  box-shadow: 0px 0px 20px 25px #f7f75f;
+  font: 3em 'Chango', cursive;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.NavBar {
+  background: #ffffff;
+  font: 1em/3em 'Averia Gruesa Libre', cursive;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin: 0 1.5em;
+  display: inline-block;
+  border-top: .2em solid #ffffff;
+  border-bottom: .2em solid #ffffff;
+}
+
+a:hover {
+  border-bottom: .2em solid #7676c6;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(#dd557e, #8345a5, #5252ad);
+  padding: 2em;
+}
+
+.mainContent {
+  height: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section {
+  width: 100%;
+}
+
+.fas {
+  font-size: 2em;
+}
+
+.contentTitle {
+  font: 2em 'Fredoka One', cursive;
+  text-align: left;
+}
+
+p {
+  font-family: 'Roboto', cursive;
+}
+
+.aboutContent {
+  display: flex;
+  justify-content: space-around;
+}
+
+.projectContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.contactContent {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emailForm {
+  width: 66%;
+}
+
+.emailFormRow {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Copyright {
+  font: 1em 'Averia Gruesa Libre', 'Roboto', cursive;
+  margin-top: 1em;
+}
+

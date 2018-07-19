@@ -3,6 +3,10 @@ import NavigationLink from './NavigationLink';
 
 const navigationLinksArray = [
   {
+    title: "Home",
+    route: "/",
+  },
+  {
     title: "About Me",
     route: "/about",
   },

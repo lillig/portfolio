@@ -4,19 +4,19 @@ import NavigationLink from './NavigationLink';
 const navigationLinksArray = [
   {
     title: "About Me",
-    route: "#",
+    route: "/about",
   },
   {
     title: "My Projects",
-    route: "#",
+    route: "/projects",
   },
   {
     title: "My Skills",
-    route: "#",
+    route: "/skills",
   },
   {
     title: "Contact Me",
-    route: "#",
+    route: "/contact",
   },
 ];
 

@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 
 class NavigationLink extends Component {
   render() {
     const { title, route } = this.props;
 
     return (
-      <a href={route}>
+      <Link to={route} replace >
         {title} 
-      </a>
+      </Link>
     );
   }
 }

@@ -1,0 +1,7 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(#dd557e, #8345a5, #5252ad);
+  padding: 2em;
+}

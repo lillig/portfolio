@@ -1,0 +1,12 @@
+a {
+  text-decoration: none;
+  color: black;
+  margin: 0 1.5em;
+  display: inline-block;
+  border-top: .2em solid #ffffff;
+  border-bottom: .2em solid #ffffff;
+}
+
+a:hover {
+  border-bottom: .2em solid #7676c6;
+}

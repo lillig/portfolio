@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom'
+import '../stylesheets/Main.css';
 import arrow_up_solid from '../assets/arrow_up_solid.svg';
 import bars_solid from '../assets/bars_solid.svg'
 import Home from './Home';

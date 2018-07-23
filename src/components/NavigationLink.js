@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import '../stylesheets/NavigationLink.css';
 
 class NavigationLink extends Component {
   render() {

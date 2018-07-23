@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../stylesheets/Header.css';
 import NavigationLink from './NavigationLink';
 
 const navigationLinksArray = [

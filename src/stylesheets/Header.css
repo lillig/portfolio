@@ -1,0 +1,25 @@
+header {
+  text-align: center;
+}
+
+.headerImageContainer {
+  position: relative;
+}
+
+.headerText {
+  background: #f7f75f;
+  -webkit-box-shadow: 0px 0px 20px 25px #f7f75f;
+  -moz-box-shadow: 0px 0px 20px 25px #f7f75f;
+  box-shadow: 0px 0px 20px 25px #f7f75f;
+  font: 3em 'Chango', cursive;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.NavBar {
+  background: #ffffff;
+  font: 1em/3em 'Averia Gruesa Libre', cursive;
+}

@@ -4,4 +4,9 @@ main {
   justify-content: space-around;
   background: linear-gradient(#EB7B9D, #F7F75F, #7676C6);
   padding: 2em;
+  min-height: calc(100vh - 254.38px)
+}
+
+.fas {
+  max-width: 40px;
 }

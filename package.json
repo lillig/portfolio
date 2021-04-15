@@ -3,11 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "3": "^2.1.0",
+    "@babel/eslint-parser": "^7.13.14",
+    "chokidar": "^3.5.1",
     "css-doodle": "^0.4.2",
+    "eslint": "^7.24.0",
+    "joi": "^17.4.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^4.0.3"
+    "react-scripts": "^4.0.3",
+    "urix": "^0.1.0"
   },
   "scripts": {
     "predeploy": "npm run build",
